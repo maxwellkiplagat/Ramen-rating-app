@@ -1,6 +1,6 @@
 body{
     height: 100vh;
-    background-color: #DDEB9D;
+    background-color: #D7FFDF;
 }
     
 body>h1{
@@ -40,7 +40,7 @@ body>h1{
     margin-left: auto;
     padding-left: 20px;
     border-top: 3px solid gold;
-    background-color: #A0C878;
+    background-color: #77B5A6;
     border-bottom: 1px solid gold;
     transition: .5s;
     line-height: normal;
@@ -54,7 +54,7 @@ body>h1{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5px;
-    background-color: #A0C878;
+    background-color: #77B5A6;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
     padding: 20px;
