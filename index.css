@@ -1,0 +1,133 @@
+body{
+    height: 100vh;
+    background-color: #D7FFDF;
+}
+    
+body>h1{
+   background-color: black;
+   color: white; 
+   text-align: center;
+   padding: 10px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   font-family: "Bungee Inline", sans-serif;
+   
+}
+#placeForFood{
+    display: flex;
+    flex-direction: row;
+    height: 210px;
+    justify-content: center;
+
+    
+}
+#placeForFood>img{
+    height: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 10px;
+    border-radius: 10px;
+    
+}
+
+#ramen-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 519px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    border-top: 3px solid gold;
+    background-color: #77B5A6;
+    border-bottom: 1px solid gold;
+    transition: .5s;
+    line-height: normal;
+    
+}
+#new-ramen{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    background-color: #77B5A6;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+}
+#ramen-detail h2{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-family: "Lexend Tera", sans-serif;
+    text-decoration: underline;
+    
+}
+#ramen-detail p{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-family: "Turret Road", sans-serif;
+    
+}
+#ramen-name{
+    font-weight: bolder;
+    text-decoration: chartreuse;
+    text-align: center;
+}
+#ramen-restaurant{
+    font-weight: bolder;
+}
+#ramen-rating{
+    font-weight: bolder;
+    text-decoration: chartreuse;
+    text-align: center;
+}   
+#ramen-comment{
+    font-weight: bolder;
+    text-decoration: chartreuse;
+    text-align: center;
+    
+}
+#ramen-detail > p:nth-child(5){
+    margin-bottom: 20px;
+}
+input{
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+#comment{
+    height: 6rem;
+    margin-bottom: 3px;
+    border-radius: 10px;
+}
+button{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    height: 35px;
+    border-radius: 10px;
+}
+#selected-ramen-container{
+    display: flex;
+    justify-content: center;
+}
+#selected-ramen-image{
+    display: none;
+    width: 538px;
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 0px;
+}
+label{
+    font-family: "Turret Road", sans-serif;
+    font-weight: bold;
+}
+#new-ramen>h2{
+    font-family: "Lexend Tera", sans-serif;
+    text-decoration: underline;
+}
