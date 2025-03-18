@@ -144,5 +144,10 @@ label{
         flex-direction: row;
         gap: 10px;
         margin-top: 30px;
+
+    }
+    #placeForFood>img{
+        width: 100%;
+        gap: 10px;
     }
 }
