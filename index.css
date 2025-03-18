@@ -20,7 +20,7 @@ body>h1{
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 20px;
-    overflow: hidden;
+    overflow-y: scroll;
 
     
 }
