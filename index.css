@@ -18,6 +18,9 @@ body>h1{
     flex-direction: row;
     height: 210px;
     justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    overflow: hidden;
 
     
 }
@@ -29,6 +32,7 @@ body>h1{
     margin-right: 10px;
     border-radius: 10px;
     cursor: pointer;
+    
     
 }
 
